@@ -21,13 +21,13 @@ setup(name='ploneintranet.simplesharing',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Environment :: Web Environment",
-        "Framework :: Plone",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 2.6",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+          "Environment :: Web Environment",
+          "Framework :: Plone",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2.6",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='',
       author='',
       author_email='',
@@ -40,7 +40,12 @@ setup(name='ploneintranet.simplesharing',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'plone.behavior',
+          'plone.directives.form',
+          'zope.schema',
+          'zope.interface',
+          'zope.component',
+          'rwproperty',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
@@ -48,4 +53,4 @@ setup(name='ploneintranet.simplesharing',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      )
+)
