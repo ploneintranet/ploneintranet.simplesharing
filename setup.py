@@ -48,8 +48,15 @@ setup(name='ploneintranet.simplesharing',
           'plone.api',
           'collective.workspace',
       ],
-      extras_require={'test': ['plone.app.testing'],
-                      'develop': ['Sphinx'],},
+      extras_require={
+          'test': [
+              'plone.app.testing',
+              'plone.app.contenttypes',
+          ],
+          'develop': [
+              'Sphinx',
+          ],
+      },
       entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
