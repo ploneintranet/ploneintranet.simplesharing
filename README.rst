@@ -8,4 +8,4 @@
 Introduction
 ============
 
-This egg provides a behaviour which allows a user to set workflow state and local roles from within the edit view.
+This egg provides a viewlet which allows a user to set workflow state and local roles without having to use the edit tool bar or the sharing view. The idea is to make these actions simple for a user with no extensive plone training.
