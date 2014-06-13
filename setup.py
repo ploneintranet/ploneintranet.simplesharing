@@ -47,6 +47,7 @@ setup(name='ploneintranet.simplesharing',
           'zope.component',
           'plone.api',
           'collective.workspace',
+          'collective.z3cform.chosen',
       ],
       extras_require={
           'test': [
