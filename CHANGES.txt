@@ -5,4 +5,5 @@ Changelog
 --------------------
 
 - Package created using templer
-  []
+
+- Basic viewlet and form created
