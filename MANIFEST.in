@@ -1,0 +1,4 @@
+graft src
+recursive-include docs *
+include *
+global-exclude *.pyc
