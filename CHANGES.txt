@@ -4,7 +4,12 @@ Changelog
 0.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Include title and description for states
+  [adamfc]
+- Add detail to labels
+  [adamfc]
+- Fix distribution issues
+  [mattss]
 
 
 0.1 (2014-06-27)
