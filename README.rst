@@ -1,7 +1,22 @@
+ld status
+------------
+
+Unit tests
+~~~~~~~~~~
+
 .. image:: https://travis-ci.org/ploneintranet/ploneintranet.simplesharing.svg
     :target: https://travis-ci.org/ploneintranet/ploneintranet.simplesharing
 .. image:: https://coveralls.io/repos/ploneintranet/ploneintranet.simplesharing/badge.png
     :target: https://coveralls.io/r/ploneintranet/ploneintranet.simplesharing
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Simplesharing
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Simplesharing/
+
+Robot tests for Plone Intranet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
+
 
 ploneintranet.simplesharing
 ===========================
